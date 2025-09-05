@@ -1,1 +1,29 @@
+# Maven / Build
 target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs / OS
+*.log
+hs_err_pid*
+/replay_pid*
+.DS_Store
+Thumbs.db
+
+# Node (si tu ajoutes un frontend plus tard)
+node_modules/
+dist/
+
+# Others
+.env
